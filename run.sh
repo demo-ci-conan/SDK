@@ -29,6 +29,7 @@ conan create libA libA/0.1@demo/testing
 # because of the new libA, all dependants must also be rebuilt
 conan create libB demo/testing
 conan create libC demo/testing
+conan create libE demo/testing
 conan create libH demo/testing
 
 # App 2 will use libA/0.1
